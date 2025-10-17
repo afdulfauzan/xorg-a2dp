@@ -1,0 +1,2 @@
+# /etc/udev/rules.d/20-bt-auto-enable-a2dp.rules
+SUBSYSTEM=="bluetooth", ACTION=="add", RUN+="/home/$USER/.config/scripts/xorg/bt-auto-enable-a2dp.sh"
